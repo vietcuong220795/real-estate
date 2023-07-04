@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Beautiful Tables</title>
+</head>
+
+<body class="container origin-container">
+    <h1 class="text-center">Rỗ hàng nhà bán bình tân 11 2022</h1>
+    <table id="maintable" class="display compact cell-border" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>PHƯỜNG</th>
+                <th>ĐỊA CHỈ</th>
+                <th>DIỆN TÍCH</th>
+                <th>KẾT CẤU</th>
+                <th>GIÁ </th>
+                <th>HOA HỒNG</th>
+                <th>SDT LIÊN HỆ </th>
+                <th>NOTED</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>BTĐ A</td>
+                <td>758/6/12HL2</td>
+                <td>76.8</td>
+                <td>3 lầu 4pn</td>
+                <td>6.80 </td>
+                <td>100</td>
+                <td> 0914106886 - 0931336388 </td>
+                <td>Loan - Sáng</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>BTĐ A</td>
+                <td>35/7/15/1 Ao Đôi</td>
+                <td>38</td>
+                <td>3.8*10, 2 lâu, st, 3pn, nhà mới</td>
+                <td>4.55 </td>
+                <td>1%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>BHH A</td>
+                <td>32 ds 12 lê văn quới</td>
+                <td>80</td>
+                <td>4*20, 1 lầu </td>
+                <td>6.90 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>BTĐ </td>
+                <td>103/84/7 Chiến Lược</td>
+                <td>46</td>
+                <td>1.2*13m, 3 tấm</td>
+                <td>5.20 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>BTĐ A</td>
+                <td>820A/6 HL2</td>
+                <td>64</td>
+                <td>4*16, 3.5 tấm, lệch tầng</td>
+                <td>6.30 </td>
+                <td>1%</td>
+                <td> 982,222,444 </td>
+                <td>Vũ Đại</td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td>BTĐ A</td>
+                <td>815/4 HL2</td>
+                <td>68</td>
+                <td>4*17m, 1 lững, 3 lầu, st, mới</td>
+                <td>6.80 </td>
+                <td>1%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>7</th>
+                <td>BHH A</td>
+                <td>35/20 đs18b | 22/21 đs18A</td>
+                <td>56</td>
+                <td>4*14 đúc lững, 3.5 tấm</td>
+                <td>5.70 </td>
+                <td>1%</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>8</th>
+                <td>BHH A</td>
+                <td>4/5 dds 21 mã lò</td>
+                <td>  </td>
+                <td>4*13m lệch tầng 3.5 tấm</td>
+                <td>5.40 </td>
+                <td>1%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>9</th>
+                <td>BTĐ </td>
+                <td>24/25/2 trương phước phan</td>
+                <td>52</td>
+                <td>4*13m, 3 tấm</td>
+                <td>5.10 </td>
+                <td>1%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>10</th>
+                <td>BTĐ </td>
+                <td>357/45 tân hòa đông</td>
+                <td>64</td>
+                <td>4*16 4 tấm</td>
+                <td>6.50 </td>
+                <td>2%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>11</th>
+                <td>BTĐ </td>
+                <td>406/7 chiến lược</td>
+                <td>47</td>
+                <td>4*11 nở hậu 4.7m, 1 lầu</td>
+                <td>3.90 </td>
+                <td>  </td>
+                <td> 0774654768 </td>
+                <td>c My</td>
+            </tr>
+            <tr>
+                <th>12</th>
+                <td>BTĐ </td>
+                <td>406/3 chiến lược</td>
+                <td>60</td>
+                <td>5.11*12m cấp 4</td>
+                <td>3.85 </td>
+                <td>1%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>13</th>
+                <td>BHH A</td>
+                <td>38/35 ds1</td>
+                <td>55</td>
+                <td>5*11 4.5 tấm </td>
+                <td>6.50 </td>
+                <td>2%</td>
+                <td> 942,810,982 </td>
+                <td>Mỹ Hạnh</td>
+            </tr>
+            <tr>
+                <th>14</th>
+                <td>BHH A</td>
+                <td>14/6 ds18 lê văn quới</td>
+                <td>56</td>
+                <td>4*14 1 lầu </td>
+                <td>4.40 </td>
+                <td>2%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>15</th>
+                <td>BTĐ </td>
+                <td>98/4 liên khu 1-6 </td>
+                <td>64</td>
+                <td>4*16 , mới 70%, hẻm thông, hbac</td>
+                <td>6.00 </td>
+                <td>2%</td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>16</th>
+                <td>BTĐ </td>
+                <td>61/2/7/8 liên khu 1-6</td>
+                <td>52</td>
+                <td>4*13 </td>
+                <td>5.10 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>a Tùng</td>
+            </tr>
+            <tr>
+                <th>17</th>
+                <td>BTĐ </td>
+                <td>61/2/7 liên khu 1-6</td>
+                <td>52</td>
+                <td>4*13 (2m)</td>
+                <td>2.80 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>18</th>
+                <td>BTĐ </td>
+                <td>295/5 tân hòa đông</td>
+                <td>70</td>
+                <td>5.8*12, 3 lầu st, 6pn</td>
+                <td>7.20 </td>
+                <td>  </td>
+                <td> 906,868,136 </td>
+                <td>a Huy</td>
+            </tr>
+            <tr>
+                <th>19</th>
+                <td>BTĐ A</td>
+                <td>55/94A tây Lân</td>
+                <td>48</td>
+                <td>4*12 3 lầu</td>
+                <td>4.25 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>20</th>
+                <td>BHH A</td>
+                <td>31/29c đường số 16A</td>
+                <td>60</td>
+                <td>4*15 2 lầu </td>
+                <td>4.98 </td>
+                <td>  </td>
+                <td> 924,696,333 </td>
+                <td>Tuấn Dinh</td>
+            </tr>
+            <tr>
+                <th>21</th>
+                <td>BTĐ A</td>
+                <td>730/29 HL2 (Mặt Tiền)</td>
+                <td>56</td>
+                <td>4 * 14 3 lầu, nhà mới, hẻm 12m thông</td>
+                <td>8.65 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>22</th>
+                <td>BTĐ A</td>
+                <td>730/29A HL2 (hẻm)</td>
+                <td>68</td>
+                <td>4 * 17 3 lầu, nhà mới, hẻm 12m thông</td>
+                <td>7.65 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>23</th>
+                <td>BHH A</td>
+                <td>427/ lê văn quới </td>
+                <td>76</td>
+                <td>4*19m, </td>
+                <td>8.30 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>24</th>
+                <td>BTĐ </td>
+                <td>338/168 chiến lược</td>
+                <td>72</td>
+                <td>4*18(nở hậu 8m) </td>
+                <td>8.4 (8.2)</td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>25</th>
+                <td>BTĐ </td>
+                <td>292/21 Bình Trị Đông</td>
+                <td>56</td>
+                <td>4*14m 1 lững 3 lầu </td>
+                <td>7.40 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>26</th>
+                <td>BTĐ </td>
+                <td>292/10 Bình Trị Đông</td>
+                <td>56</td>
+                <td>4*14m 1 lững 3 lầu </td>
+                <td>7.60 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>27</th>
+                <td>BHH A</td>
+                <td>30a ds24a </td>
+                <td>56</td>
+                <td>4*14m 4 lầu </td>
+                <td>6.70 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>28</th>
+                <td>  </td>
+                <td>45 đướng số 9A</td>
+                <td>80</td>
+                <td>4*20m , 3 tấm</td>
+                <td>7.80 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>29</th>
+                <td>BHH A</td>
+                <td>366/5 lê văn quới</td>
+                <td>68</td>
+                <td>4*17m 1 lững 3 lầu (sắp xây)</td>
+                <td>8.50 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>30</th>
+                <td>BHH A</td>
+                <td>49 ds5A </td>
+                <td>90</td>
+                <td>5*16m </td>
+                <td>9.20 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>31</th>
+                <td>BTĐ A</td>
+                <td>125/37 Tây Lân</td>
+                <td>88</td>
+                <td>4*22</td>
+                <td>6.35 </td>
+                <td>1%</td>
+                <td> 913,633,333 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>32</th>
+                <td>BTĐ A</td>
+                <td>125/21 Tây Lân</td>
+                <td>48</td>
+                <td>4*12m</td>
+                <td>4.25 </td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>33</th>
+                <td>BTĐ A</td>
+                <td>759/17/24 HL2</td>
+                <td>24</td>
+                <td>3.8 1 lầu 2pn </td>
+                <td>2.85 </td>
+                <td>50</td>
+                <td>0913620931 - 0792887711 </td>
+                <td>a Tâm</td>
+            </tr>
+            <tr>
+                <th>34</th>
+                <td>BTĐ A</td>
+                <td>836/28A HL2</td>
+                <td>76</td>
+                <td>4*19m. 3.5 tấm</td>
+                <td>7.00 </td>
+                <td>  </td>
+                <td> 908,648,388 </td>
+                <td>Cô Tâm</td>
+            </tr>
+            <tr>
+                <th>35</th>
+                <td>BHH A</td>
+                <td>325/21/6 lê văn quới</td>
+                <td>47</td>
+                <td>4*12, 3.5 tấm</td>
+                <td>7.87 </td>
+                <td>  </td>
+                <td> 0903618638 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>36</th>
+                <td>BTĐ A</td>
+                <td>156/89 chiến lược</td>
+                <td>93</td>
+                <td>8.83*10.5</td>
+                <td>3.90 </td>
+                <td>1%</td>
+                <td> 901,111,029 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>37</th>
+                <td>BTĐ </td>
+                <td>54/10/7 Đình Nghi Xuân</td>
+                <td>44</td>
+                <td>4*11 1 lầu, </td>
+                <td>4.10 </td>
+                <td>40</td>
+                <td> 902,649,711 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>38</th>
+                <td>BTĐ </td>
+                <td>82/18 liên khu 16-18</td>
+                <td>36</td>
+                <td>4*9</td>
+                <td>4.00 </td>
+                <td>  </td>
+                <td> 903,283,361 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>39</th>
+                <td>BHH A</td>
+                <td>17/8/2E đường số 2 Mã Lò</td>
+                <td>52</td>
+                <td>4*13 4 tấm </td>
+                <td>4.65 </td>
+                <td>  </td>
+                <td> 918,272,519 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>40</th>
+                <td>BTĐ </td>
+                <td>490/37/14 HL2</td>
+                <td>46</td>
+                <td>4*11.5m, 1 lầu</td>
+                <td>3.80 </td>
+                <td>  </td>
+                <td> 909,174,888 </td>
+                <td>nhà đất Quang Huy</td>
+            </tr>
+            <tr>
+                <th>41</th>
+                <td>BHH A</td>
+                <td>366/29C lê văn quới</td>
+                <td>72</td>
+                <td>4*18 1 lững, 3 lầu </td>
+                <td>7.65 </td>
+                <td>1%</td>
+                <td> 901,878,539 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>42</th>
+                <td>BHH A</td>
+                <td>51/12/4 đs 18b </td>
+                <td>55</td>
+                <td>5*11 4 tấm</td>
+                <td>5.99 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>43</th>
+                <td>BHH A</td>
+                <td>460/12 HL2</td>
+                <td>  </td>
+                <td>  </td>
+                <td>4.90 </td>
+                <td>  </td>
+                <td> 903,882,150 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>44</th>
+                <td>BTĐ </td>
+                <td>116/49 Bình Trị Đông</td>
+                <td>52</td>
+                <td>4*13m 2 lầu </td>
+                <td>5.98 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>45</th>
+                <td>TÂN TẠO</td>
+                <td>481 Chiến Lược</td>
+                <td>80</td>
+                <td>4*20 </td>
+                <td>7.50 </td>
+                <td>  </td>
+                <td> 931,478,173 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>46</th>
+                <td>BTĐ A</td>
+                <td>758/6/28 Hl2</td>
+                <td>52</td>
+                <td>4*13 </td>
+                <td>6.17 </td>
+                <td>  </td>
+                <td> 903,169,716 </td>
+                <td>a Phong</td>
+            </tr>
+            <tr>
+                <th>47</th>
+                <td>BTĐ A</td>
+                <td>815/2/4 Hl2 </td>
+                <td>68</td>
+                <td>4*17m, 1 lững 3 lầu </td>
+                <td>6.80 </td>
+                <td>  </td>
+                <td> 982,222,444 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>48</th>
+                <td>BHH A</td>
+                <td>4/1c ds 21</td>
+                <td>48</td>
+                <td>4*12 3 tấm</td>
+                <td>5.40 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>49</th>
+                <td>BTĐ A</td>
+                <td>821/6 HL2</td>
+                <td>64</td>
+                <td>4*16m, 3 lầu</td>
+                <td>6.30 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>50</th>
+                <td>BTĐ </td>
+                <td>54/12/2A chiến lược</td>
+                <td>64</td>
+                <td>4*16 lững 4 lầu </td>
+                <td>6.50 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>51</th>
+                <td>BTĐ A</td>
+                <td>840/15 Hl2</td>
+                <td>68</td>
+                <td>4*17 lững 4 lầu</td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>52</th>
+                <td>BHH A</td>
+                <td>151/12b gò xoài</td>
+                <td>64</td>
+                <td>4*16m LG 3m</td>
+                <td>  </td>
+                <td>  </td>
+                <td> 919,956,939 </td>
+                <td>a Nguyên</td>
+            </tr>
+            <tr>
+                <th>53</th>
+                <td>BHH A</td>
+                <td>17/9 ds14b </td>
+                <td>100</td>
+                <td>5*20 2 lầu st, hướng bắc, 4m</td>
+                <td>5.00 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>54</th>
+                <td>BHH A</td>
+                <td>240/28/1 ds4 </td>
+                <td>153</td>
+                <td>  </td>
+                <td>17.00 </td>
+                <td>  </td>
+                <td> 913,988,895 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>55</th>
+                <td>BHH A</td>
+                <td>31/39/19 ds3 </td>
+                <td>68</td>
+                <td>4*17- c4 lững </td>
+                <td>5.60 </td>
+                <td>  </td>
+                <td> 899,336,763 </td>
+                <td>Ngọc</td>
+            </tr>
+            <tr>
+                <th>56</th>
+                <td>BHH A</td>
+                <td>41/61 ds2 gò xoài</td>
+                <td>60</td>
+                <td>4*15 1 lững 1 lầu </td>
+                <td>4.65 </td>
+                <td>  </td>
+                <td> 985,113,279 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>57</th>
+                <td>BHH A</td>
+                <td>480/13/14 mã lò</td>
+                <td>72</td>
+                <td>4*18m, 1 lầu, 2mt</td>
+                <td>4.70 </td>
+                <td>  </td>
+                <td> 945,653,139 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>58</th>
+                <td>BHH A</td>
+                <td>22/16 MGX</td>
+                <td>48</td>
+                <td>4*12 4 tấm </td>
+                <td>6.40 </td>
+                <td>  </td>
+                <td> 907,677,978 </td>
+                <td>Vũ </td>
+            </tr>
+            <tr>
+                <th>59</th>
+                <td>BHH A</td>
+                <td>125/1/5 ds 8b</td>
+                <td>36</td>
+                <td>4*9m 1 lầu 2pn,</td>
+                <td>  </td>
+                <td>1%</td>
+                <td> 987,386,578 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>60</th>
+                <td>TÂN TẠO</td>
+                <td>156/2 lê đình cẩn</td>
+                <td>100</td>
+                <td>5*20m , c4 nát</td>
+                <td>6.90 </td>
+                <td>  </td>
+                <td> 943,385,878 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>61</th>
+                <td>BHH A</td>
+                <td>655/34 ds17c </td>
+                <td>60</td>
+                <td>4*15 c4</td>
+                <td>4.20 </td>
+                <td>  </td>
+                <td> 813,539,370 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>62</th>
+                <td>BHH A</td>
+                <td>2a/16 ds13a </td>
+                <td>60</td>
+                <td>4*15m 3 tấm</td>
+                <td>5.20 </td>
+                <td>  </td>
+                <td> 901,167,219 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>63</th>
+                <td>BHH A</td>
+                <td>37 ds1c </td>
+                <td>62</td>
+                <td>4*15.5m, cấp 4, 3pn 2wc</td>
+                <td>5.40 </td>
+                <td>  </td>
+                <td> 906,236,270 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>64</th>
+                <td>BTĐ A</td>
+                <td>132 mã lò</td>
+                <td>52</td>
+                <td>4*13m, 1 lững 3 lầu</td>
+                <td>7.95 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>65</th>
+                <td>BHH A</td>
+                <td>39/50A lô tư</td>
+                <td>56</td>
+                <td>4*14m 4 tấm</td>
+                <td>6.10 </td>
+                <td>  </td>
+                <td> 794,554,057 </td>
+                <td>Thông</td>
+            </tr>
+            <tr>
+                <th>66</th>
+                <td>BHH A</td>
+                <td>173/6a gò xoài</td>
+                <td>154</td>
+                <td>gác (4*23*16) hẻm 6m</td>
+                <td>4.90 </td>
+                <td>  </td>
+                <td> 903,920,194 </td>
+                <td>Ty</td>
+            </tr>
+            <tr>
+                <th>67</th>
+                <td>BHH A</td>
+                <td>33/18 ds4 </td>
+                <td>70</td>
+                <td>5*14m, lững 3pn</td>
+                <td>5.6ty</td>
+                <td>  </td>
+                <td> 903,123,639 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>68</th>
+                <td>BHH A</td>
+                <td>3/54/7 ds8 </td>
+                <td>64</td>
+                <td>4*16m, 1 lầu, hướng tây</td>
+                <td>5.37 </td>
+                <td>  </td>
+                <td> 906,881,730 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>69</th>
+                <td>BHH A</td>
+                <td>55/6/19 ds18b </td>
+                <td>48</td>
+                <td>4*12m, 1 lững 3 lầu </td>
+                <td>5.10 </td>
+                <td>  </td>
+                <td> 901,631,633 </td>
+                <td>Cấm</td>
+            </tr>
+            <tr>
+                <th>70</th>
+                <td>BHH A</td>
+                <td>123/24 ds8 </td>
+                <td>44</td>
+                <td>4*10.6m, c4</td>
+                <td>4.20 </td>
+                <td>  </td>
+                <td> 982,119,903 </td>
+                <td>Loộc </td>
+            </tr>
+            <tr>
+                <th>71</th>
+                <td>BHH A</td>
+                <td>137/9 gò xoài</td>
+                <td>66</td>
+                <td>4*16.5m, </td>
+                <td>5.50 </td>
+                <td>  </td>
+                <td> 974,763,440 </td>
+                <td>kê</td>
+            </tr>
+            <tr>
+                <th>72</th>
+                <td>BHH A</td>
+                <td>33/40 ds4 gò xoài</td>
+                <td>56</td>
+                <td>4*14 3 lầu, nhà đẹp</td>
+                <td>6.95 </td>
+                <td>80</td>
+                <td> 379,839,458 </td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <th>73</th>
+                <td>BHH A</td>
+                <td>276/29/45/7 mã lò</td>
+                <td>50</td>
+                <td>4x12,5 đúc 3 lầu</td>
+                <td>5.25 </td>
+                <td>  </td>
+                <td> 933,405,875 </td>
+                <td>a Tân</td>
+            </tr>
+            <tr>
+                <th>74</th>
+                <td>BHH A</td>
+                <td>44/17 đường số 4( gò xoài)</td>
+                <td>73.6</td>
+                <td>4*18.5m, dãy trọ cũ, hẻm 7m thông thẳng</td>
+                <td>4.85 </td>
+                <td>1%</td>
+                <td> 916,883,827 </td>
+                <td>mai phượng</td>
+            </tr>
+            <tr>
+                <th>75</th>
+                <td>BHH</td>
+                <td>180 ds11 </td>
+                <td>64</td>
+                <td>4*16m cấp 4</td>
+                <td>5.10 </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: #c0c0c0; color: #ffffff; font-size: 0.9em; ">
+            <tr>
+                <th>STT</th>
+                <th>PHƯỜNG</th>
+                <th>ĐỊA CHỈ</th>
+                <th>DIỆN TÍCH</th>
+                <th>KẾT CẤU</th>
+                <th>GIÁ </th>
+                <th>HOA HỒNG</th>
+                <th>SDT LIÊN HỆ </th>
+                <th>NOTED</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="js/jszip.min.js"></script>
+    <script type="text/javascript" src="js/pdfmake.min.js"></script>
+    <script type="text/javascript" src="js/vfs_fonts.js"></script>
+    <script type="text/javascript" src="js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="js/buttons.print.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/jquery.mark.min.js"></script>
+    <script type="text/javascript" src="js/datatables.mark.js"></script>
+    <script type="text/javascript" src="js/buttons.colVis.min.js"></script>
+    <footer>For documentation and licensing visit <a href="https://datatables.net/">DataTables</a></footer>
+</body>
+
+</html>
